@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		44BA16362971DD3F00510FB5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BA16352971DD3F00510FB5 /* main.swift */; };
+		44FC42BE297AAD9F0000A80C /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC42BD297AAD9F0000A80C /* Parent.swift */; };
+		44FC42C0297AADBF0000A80C /* Child1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC42BF297AADBF0000A80C /* Child1.swift */; };
+		44FC42C2297AADD90000A80C /* Child2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC42C1297AADD90000A80C /* Child2.swift */; };
+		44FC42C4297AADFA0000A80C /* GrandChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC42C3297AADFA0000A80C /* GrandChild1.swift */; };
+		44FC42C6297AAE290000A80C /* GrandChild2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC42C5297AAE290000A80C /* GrandChild2.swift */; };
+		44FC42C8297AAECF0000A80C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC42C7297AAECF0000A80C /* User.swift */; };
+		44FC42CA297AAEFD0000A80C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC42C9297AAEFD0000A80C /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		44BA16322971DD3F00510FB5 /* (M2)Lesson-2(HomeWork) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "(M2)Lesson-2(HomeWork)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BA16352971DD3F00510FB5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		44FC42BD297AAD9F0000A80C /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		44FC42BF297AADBF0000A80C /* Child1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child1.swift; sourceTree = "<group>"; };
+		44FC42C1297AADD90000A80C /* Child2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child2.swift; sourceTree = "<group>"; };
+		44FC42C3297AADFA0000A80C /* GrandChild1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandChild1.swift; sourceTree = "<group>"; };
+		44FC42C5297AAE290000A80C /* GrandChild2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandChild2.swift; sourceTree = "<group>"; };
+		44FC42C7297AAECF0000A80C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44FC42C9297AAEFD0000A80C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				44BA16352971DD3F00510FB5 /* main.swift */,
+				44FC42BD297AAD9F0000A80C /* Parent.swift */,
+				44FC42BF297AADBF0000A80C /* Child1.swift */,
+				44FC42C1297AADD90000A80C /* Child2.swift */,
+				44FC42C3297AADFA0000A80C /* GrandChild1.swift */,
+				44FC42C5297AAE290000A80C /* GrandChild2.swift */,
+				44FC42C7297AAECF0000A80C /* User.swift */,
+				44FC42C9297AAEFD0000A80C /* Student.swift */,
 			);
 			path = "(M2)Lesson-2(HomeWork)";
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FC42C6297AAE290000A80C /* GrandChild2.swift in Sources */,
+				44FC42C0297AADBF0000A80C /* Child1.swift in Sources */,
+				44FC42C4297AADFA0000A80C /* GrandChild1.swift in Sources */,
+				44FC42C2297AADD90000A80C /* Child2.swift in Sources */,
 				44BA16362971DD3F00510FB5 /* main.swift in Sources */,
+				44FC42BE297AAD9F0000A80C /* Parent.swift in Sources */,
+				44FC42C8297AAECF0000A80C /* User.swift in Sources */,
+				44FC42CA297AAEFD0000A80C /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
