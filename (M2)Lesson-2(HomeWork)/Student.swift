@@ -7,17 +7,17 @@
 
 import Foundation
 
-class Student: User {
+class Student: User{
     var year: Int
-    var currentYear: Int
+    var yearOfAdmission: Int
 
-    init(name: String, surname: String, year: Int) {
+    init(name: String, surname: String, year: Int){
         self.year = year
-        self.currentYear = Calendar.current.component(.year, from: Date())
+        self.yearOfAdmission = Calendar.current.component(.year, from: Date())
         super.init(name: name, surname: surname)
     }
 
-    func getCourse() -> Int {
-        return currentYear - year + 1
+    func getCourse() -> Int{
+        return yearOfAdmission - year + 1
     }
 }

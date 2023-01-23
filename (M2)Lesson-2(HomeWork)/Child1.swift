@@ -7,10 +7,10 @@
 
 import Foundation
 
-class Child1: Parent {
+class Child1: Parent{
     var child1Property: String
 
-    init(commonProperty: String, child1Property: String) {
+    init(commonProperty: String, child1Property: String){
         self.child1Property = child1Property
         super.init(commonProperty: commonProperty)
     }

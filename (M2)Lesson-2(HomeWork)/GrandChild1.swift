@@ -7,7 +7,7 @@
 
 import Foundation
 
-class GrandChild1: Child1 {
+class GrandChild1: Child1{
     var grandChild1Property: String
 
     init(commonProperty: String, child1Property: String, grandChild1Property: String) {
